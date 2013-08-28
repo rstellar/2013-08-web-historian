@@ -1,5 +1,7 @@
 var http = require("http");
 var myStuff = require("./request-handler");
+var url = require("url");
+var fs = require("fs");
 
 var port = 8080;
 var ip = "127.0.0.1";
