@@ -39,3 +39,33 @@
   </script>
 </body>
 </html>
+
+
+
+
+<!-- First App:
+
+
+1. Configure node for a single page serve of Index.html
+-Have simple server, what else is needed?
+
+2.  Index has a field submission for new URLs for the system to archive.
+
+3.  Store in a temp variable to later be added to the data object.
+4. Use AJAX POST to send to Node server.
+Q: Does or AJAX request have to do anything else? 
+Will we need a get of any type. In chat we needed the GET on initial page load and every time chat refreshed on set interval.
+
+Q: Will we use CORs headers or some other system?
+Q1: How do you write to these files? What is the format and data object type? Since it is a simple txt file, how do we parse the text. Does it even matter?
+  
+
+Second App:
+1. A function to read the list of file by accessing the local file system to find data/sites -- wrap this in a method.
+2. A function to take the URL, query the internet, return the file and store it some place
+-How to store all that data? Database? Folder system? Which database, how to set it up?
+3. Will a framework be necessary or valuable?
+4. Use cron to run the storing function on a regular basis.
+
+Future App:
+1. Presentation of information on query by user. -->
